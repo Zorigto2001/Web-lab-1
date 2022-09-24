@@ -1,0 +1,110 @@
+header {
+    background-color: green;
+    color: white;
+    font-family: Courier New;
+    display: flex;
+    align-items: center;/*текст по центру ось ОУ*/
+    justify-content: center; /*текст по центру - ось ОХ*/
+    width: 100%;/*растягивание полотна по ширине в процентах*/
+    height: 40px;/*высота полотна в едницах графики*/
+}
+
+footer {
+    background-color: green;
+    color: white;
+    font-family: Arial;
+    display: flex;
+    align-items: center;/*текст по центру ось ОУ*/
+    justify-content: center; /*текст по центру - ось ОХ*/
+    width: 100%;/*растягивание полотна по ширине в процентах*/
+    height: 40px;/*высота полотна в едницах графики*/
+}
+
+.blue_background{
+    background-color: blue;
+    display: flex;
+    width: 520px;
+    height: 650px;
+    margin: 0 auto;
+}
+
+.h1_1 {
+    font-family: Arial;
+    font-size: 33px;
+    color: white;
+}
+
+.logo {/*by great Dmitri Solomin, у самого не вышло норм нарисовать, че то постояно вылезало не туда*/
+    width: 90px;
+    height: 90px;
+    border: 5px solid white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 0;
+    float: left;
+    margin:0 20px 30px 0;
+}
+
+.div_1_block {
+    margin:0 0 10px 30px;
+    font-family:Arial Narrow;
+    font-size: 15px;
+    color:white;
+}
+
+a {
+    color: red;
+    display: block;
+    text-align: center;
+}
+
+span{
+    color: red;
+}
+
+.h2_27px{
+    margin-top:0;
+    font-size: 27px;
+}
+ul{
+    font-size: 17px;
+}
+
+.li_2{
+    color:aqua;
+}
+.h3_px{
+    font-size: 24px;
+}
+
+p{
+    font-family:Arial;
+    font-size: 15px;
+}
+
+#div_2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image_1{
+    padding-inline-start: 150px ;
+    padding-top: 10px;
+}
+
+.tabl {/*границы таблицы by Dmitri Solomin */
+    max-height: 120px;
+    border: 1px solid #fff;
+}
+
+td{
+    font-size:20px;
+    font-family:Arial;
+    text-align: center;
+    vertical-align: bottom;
+    color: white;
+    border: 1px solid #fff;
+    height:40px;
+    width:50px;
+}
